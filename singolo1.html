@@ -7,7 +7,8 @@
     <title>Singolo</title>
     <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans:400,600,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="./singolo1.css">
 </head>
 
@@ -17,18 +18,48 @@
             <nav class="header__navigation">
                 <a href="/" class="logo">Singolo<span>*</span></a>
                 <ul class="navigation">
-                    <a href="#" class="navigation__item"><li>Home</li></a>
-                    <a href="#" class="navigation__item"><li>Services</li></a>
-                    <a href="#" class="navigation__item"><li>Portfolio</li></a>
-                    <a href="#" class="navigation__item"><li>About</li></a>
-                    <a href="#" class="navigation__item"><li>Contacts</li></a>
+                    <a href="#" class="navigation__item">
+                        <li>Home</li>
+                    </a>
+                    <a href="#" class="navigation__item">
+                        <li>Services</li>
+                    </a>
+                    <a href="#" class="navigation__item">
+                        <li>Portfolio</li>
+                    </a>
+                    <a href="#" class="navigation__item">
+                        <li>About</li>
+                    </a>
+                    <a href="#" class="navigation__item">
+                        <li>Contacts</li>
+                    </a>
                 </ul>
             </nav>
         </div>
     </header>
+    <section class="hero">
+        <div class="container">
+            <div class="owl-carousel owl-theme">
+                <div class="carousel-img__vertical"><img src="./assets/iPhoneVertical.png" alt=""></div>
+                <div class="carousel-img__horizontal"><img src="./assets/iPhoneHorizontal.png" alt=""></div>
+                <div class="carousel-img__vertical"><img src="./assets/iPhoneVertical.png" alt=""></div>
+                <div class="carousel-img__horizontal"><img src="./assets/iPhoneHorizontal.png" alt=""></div>
+            </div>
+        </div>
+    </section>
+   
 
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".owl-carousel").owlCarousel({
+                items: 2,
+                dots: false,
+                nav: true
+            });
+        });
+    </script>
 </body>
 
 </html>

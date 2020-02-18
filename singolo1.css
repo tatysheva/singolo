@@ -69,11 +69,65 @@ a {
 
 .navigation__item:not(:first-child)::before{
     content: "";
-    width: 5px;
+    width: 4px;
     position: absolute;
-    top: 5px;
-    left: -20px;
-    height: 5px;
+    top: 6px;
+    left: -18px;
+    height: 4px;
     border-radius: 50%;
     background: #494e62;
 }
+
+/* ************* HERO ********************* */
+
+.hero {
+    background: #f06c64;
+    height: calc(100vh - 95px);
+    display: flex;
+    align-items: center;
+}
+
+.owl-stage {
+    display: flex;
+    align-items: center;
+}
+
+.carousel-img__vertical{
+    width: 216px;
+    height: 458px;
+    margin-left: 70px;
+}
+
+.carousel-img__horizontal {
+    width: 458px;
+    height: 216px;
+}
+
+.owl-nav{
+    display: inline-block;
+    color: #ca4549;
+    font-size: 55px;
+    height: 60px;
+    width: 40px;
+}
+
+.owl-prev, .owl-next {
+    position: absolute;
+}
+
+.owl-prev {
+    left: -8px;
+    top: 190px;
+}
+
+.owl-next {
+    right: -8px;
+    top: 190px;
+}
+
+/* ************* HERO ********************* */
+
+/* ************* SERVICES ****************** */
+
+
+/* ************* SERVICES ****************** */
