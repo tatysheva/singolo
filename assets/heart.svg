@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="27" viewBox="0 0 16 27">
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="28" viewBox="0 0 32 28">
   <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
 <x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c140 79.160451, 2017/05/06-01:08:21        ">
    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
@@ -27,5 +27,13 @@
                                                                                                     
                            
 <?xpacket end="w"?></metadata>
-<image id="chev" width="16" height="27" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAbCAMAAABC6v+QAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAzFBMVEXKRUnKRUnKRUnKRUnKRUnKRUnKRUnKRUnKRUnKRUnKRUnKRUnKRUnKRUnKRUnKRUnKRUnKRUnKRUnKRUnKRUnKRUnKRUnKRUnKRUnKRUnKRUnKRUnKRUnKRUnKRUnKRUnKRUnKRUnKRUnKRUnKRUnKRUnKRUnKRUnKRUnKRUnKRUnKRUnKRUnKRUnKRUnKRUnKRUnKRUnKRUnKRUnKRUnKRUnKRUnKRUnKRUnKRUnKRUnKRUnKRUnKRUnKRUnKRUnKRUnKRUnKRUkAAAAsbdW3AAAAQnRSTlMAAnvOyGShUIyfiXeFxhJy1Bdz2CPXJFv65yxY/Og1R/Q2QvHzQ9PqS/ePyjFB8jxMXOZd++IlbtnVFnWai2q5sVMmtg3NAAAAAWJLR0RDZ9ANYgAAAAlwSFlzAAALEgAACxIB0t1+/AAAAAd0SU1FB+QCFwccLVDo2N8AAACtSURBVBjTVdHXFoIwDIDhiuLeA0HU4t57b+X9H0pJQlp79/3nFNJWCF4RIxozhbbi/m8llJOB/RQ7DfYzobPoXJ5cQBdL5DK6UiWb6JpFrttgp0F2m+BWmyw9dIfc7YH7g3CAIXg05gknEKbqCDMInsth7mBRexb41aUqkv6z4rK2/ycRYoNlq8puD+Vw5HLC854tLnQjlyuXGxZDjYy3fNfe5REEqb/U8/X+iC/ClSx5CbNV2wAAAABJRU5ErkJggg=="/>
+<defs>
+    <style>
+      .cls-1 {
+        fill: #666d89;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="heart" class="cls-1" d="M723.192,933.792A9.632,9.632,0,0,0,710,933.505a9.632,9.632,0,0,0-13.192.287,9.4,9.4,0,0,0,0,13.4c1.07,1.057,11.053,10.93,11.053,10.93a3.048,3.048,0,0,0,4.278,0l11.053-10.93A9.4,9.4,0,0,0,723.192,933.792Zm-1.427,11.989-11.052,10.93a1.016,1.016,0,0,1-1.425,0l-11.053-10.93a7.429,7.429,0,0,1,0-10.579,7.6,7.6,0,0,1,10.409-.222L710,936.2l1.356-1.219a7.6,7.6,0,0,1,10.409.222A7.427,7.427,0,0,1,721.765,945.781Zm-18.513-9.755h0A4.247,4.247,0,0,0,699,940.271h0a0.5,0.5,0,0,0,1,0h0a3.248,3.248,0,0,1,3.249-3.245h0A0.5,0.5,0,1,0,703.252,936.026Z" transform="translate(-694 -931)"/>
 </svg>

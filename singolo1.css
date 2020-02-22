@@ -9,6 +9,8 @@ html {
 }
 
 body {
+    width: 1020px;
+    margin: 0 auto;
     font-size: 1.2rem;
     font-family: 'Lato', sans-serif;
 }
@@ -66,7 +68,7 @@ a {
     color: #f06c64;
 }
 
-.navigation__item:not(:first-child)::before{
+.navigation__item:not(:first-child)::before {
     content: "";
     width: 4px;
     position: absolute;
@@ -93,10 +95,18 @@ a {
 }
 
 .arrow-left, .arrow-right {
-    width: 16px;
-    height: 27px; 
-    z-index: 9;
+    
     position: absolute;
+}
+
+.arrow-left {
+    top: 193px;
+    left: 0;
+}
+
+.arrow-right {
+    top: 193px;
+    right: 0;
 }
 
 .hero-img__vertical {
@@ -113,10 +123,10 @@ a {
     margin-top: -35px;
 }
 
-
 /* ************* HERO ********************* */
 
 /* ************* SERVICES ****************** */
+
 .services {
     margin-top: 60px;
     margin-bottom: 67px;
@@ -129,26 +139,36 @@ a {
     margin-bottom: 20px;
 }
 
- .services__description {
+.services__description {
     line-height: 28px;
     font-size: 1.8rem;
-    color: #767e9e; 
+    color: #767e9e;
     margin-bottom: 43px;
-} 
+}
 
 .layout-3-column {
+    display: flex;
+    flex-flow: row wrap;
+    /* flex-grow: 1; */
+    justify-content: space-between;
+    
+}
+.item:not(:last-child) {
+    margin-right: 20px;
+}
+.row {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
-}
+  }
 
-.item {
-    width: 300px;
+.item{
+    margin-bottom: 30px;
+    width: 33.3333333333%;
     display: flex;
-  flex-basis: 100%;
-  flex: 1;
-  margin-right: 20px;
+    flex-basis: 100%;
+    flex: 1; 
 }
 
 .item__icon {
@@ -177,4 +197,5 @@ a {
     font-size: 1.2rem;
     color: #767e9e;
 }
+
 /* ************* SERVICES ****************** */
