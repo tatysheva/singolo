@@ -9,6 +9,7 @@ html {
 }
 
 body {
+    background: #f2f2f2;
     width: 1020px;
     margin: 0 auto;
     font-size: 1.2rem;
@@ -95,7 +96,6 @@ a {
 }
 
 .arrow-left, .arrow-right {
-    
     position: absolute;
 }
 
@@ -148,27 +148,21 @@ a {
 
 .layout-3-column {
     display: flex;
-    flex-flow: row wrap;
-    /* flex-grow: 1; */
-    justify-content: space-between;
-    
-}
-.item:not(:last-child) {
-    margin-right: 20px;
-}
-.row {
-    display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    width: 100%;
-  }
+    justify-content: space-between;
+}
 
-.item{
-    margin-bottom: 30px;
-    width: 33.3333333333%;
+.item:not(:nth-child(3n)){
+    padding-right: 20px;
+}
+.item:nth-child(3n) {
+    padding-left: 10px;
+}
+
+.item {
+    padding-bottom: 35px;
+    width: 33%;
     display: flex;
-    flex-basis: 100%;
-    flex: 1; 
 }
 
 .item__icon {
