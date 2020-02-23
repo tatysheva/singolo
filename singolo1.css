@@ -98,6 +98,9 @@ a {
 .arrow-left, .arrow-right {
     position: absolute;
 }
+.arrow-left:hover, .arrow-right:hover {
+    transform: scale(1.5);
+}
 
 .arrow-left {
     top: 193px;
