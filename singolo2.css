@@ -36,6 +36,7 @@ a {
 #portfolio {
     background: #2d303a;
     padding-top: 60px;
+    padding-bottom: 52px;
 }
 
 .portfolio__description {
@@ -47,7 +48,7 @@ a {
 .portfolio__list {
     display: flex;
     list-style: none;
-    padding: 16px 0 20px 0;
+    padding: 16px 0 18px 0;
 }
 
 .portfolio__item {
@@ -57,6 +58,32 @@ a {
     padding: 3px 7px;
     border: 1px solid #666d89;
     border-radius: 5px;
+}
+
+.portfolio__item:hover {
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+.active {
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+.layout-4-column {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.column-3 {
+    width: 220px;
+    height: 187px;
+    margin-bottom: 20px;
+}
+
+.column-3 img {
+    width: 100%;
 }
 
 /* ******************** PORTFOLIO ****************** */

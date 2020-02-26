@@ -69,6 +69,10 @@ a {
     color: #f06c64;
 }
 
+.item-active {
+    color: #f06c64;
+}
+
 .navigation__item:not(:first-child)::before {
     content: "";
     width: 4px;
