@@ -132,6 +132,9 @@ a {
 
 .about-card__title {
     padding: 10px 0 13px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .about-card__description {
