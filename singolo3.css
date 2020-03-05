@@ -65,6 +65,18 @@ form {
     flex-direction: column;
 }
 
+.form-btn {
+    width: 200px;
+    height: 30px;
+    margin: 20px auto 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #f0d8d9;
+    font-size: 1.6rem;
+    color: #d6564f;    
+}
+
 input {
     padding: 14px;
     margin-bottom: 13px;
@@ -174,3 +186,4 @@ footer {
 .about-card__social-network__link:hover {
     background-color: #c8cee2;
 }
+
