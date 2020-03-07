@@ -150,6 +150,7 @@ a {
 }
 
 .services__description {
+    text-align: justify;
     line-height: 28px;
     font-size: 1.8rem;
     color: #767e9e;
@@ -214,6 +215,7 @@ a {
 }
 
 .portfolio__description {
+    text-align: justify;
     font-weight: 300;
     font-size: 1.8rem;
     color: #666d89;
@@ -277,6 +279,7 @@ a {
 }
 
 .about__description {
+    text-align: justify;
     font-weight: 300;
     line-height: 30px;
     font-size: 1.8rem;
@@ -353,6 +356,7 @@ a {
 }
 
 .quote__description {
+    text-align: justify;
     margin-bottom: 45px;
     font-size: 1.8rem;
     line-height: 30px;
