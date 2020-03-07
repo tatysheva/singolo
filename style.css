@@ -1,0 +1,493 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    background: #f2f2f2;
+    width: 1020px;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+    cursor: pointer;
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 95px;
+    background: #2d303a;
+    display: flex;
+    align-items: center;
+}
+
+.header__navigation {
+    margin-top: -5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.logo span {
+    color: #f06c64;
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+}
+
+.navigation__item {
+    font-weight: 600;
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-left: 26px;
+    position: relative;
+}
+
+.navigation__item:hover {
+    color: #f06c64;
+}
+
+.item-active {
+    color: #f06c64;
+}
+
+.navigation__item:not(:first-child)::before {
+    content: "";
+    width: 4px;
+    position: absolute;
+    top: 6px;
+    left: -18px;
+    height: 4px;
+    border-radius: 50%;
+    background: #494e62;
+}
+
+/* ************* HERO ********************* */
+
+.hero {
+    background: #f06c64;
+    height: 600px;
+    display: flex;
+    align-items: center;
+}
+
+.hero-img {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.arrow-left, .arrow-right {
+    position: absolute;
+}
+.arrow-left:hover, .arrow-right:hover {
+    transform: scale(1.5);
+}
+
+.arrow-left {
+    top: 193px;
+    left: 0;
+}
+
+.arrow-right {
+    top: 193px;
+    right: 0;
+}
+
+.hero-img__vertical {
+    width: 216px;
+    height: 458px;
+    margin-left: 70px;
+    margin-top: -30px;
+}
+
+.hero-img__horizontal {
+    width: 458px;
+    height: 216px;
+    margin-left: 98px;
+    margin-top: -35px;
+}
+
+/* ************* HERO ********************* */
+
+/* ************* SERVICES ****************** */
+
+.services {
+    margin-top: 60px;
+    margin-bottom: 67px;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #666d89;
+    margin-bottom: 20px;
+}
+
+.services__description {
+    line-height: 28px;
+    font-size: 1.8rem;
+    color: #767e9e;
+    margin-bottom: 43px;
+}
+
+.layout-3-column {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item:not(:nth-child(3n)){
+    padding-right: 20px;
+}
+.item:nth-child(3n) {
+    padding-left: 10px;
+}
+
+.item {
+    padding-bottom: 35px;
+    width: 33%;
+    display: flex;
+}
+
+.item__icon {
+    width: 80px;
+    height: 60px;
+    border: 2px solid #666d89;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item__content {
+    width: 100%;
+    margin-left: 20px;
+}
+
+.item__title {
+    font-size: 1.8rem;
+    color: #666d89;
+    margin-bottom: 10px;
+}
+
+.item__decription {
+    line-height: 20px;
+    font-size: 1.2rem;
+    color: #767e9e;
+}
+
+/* ************* SERVICES ****************** */
+
+/* ******************** PORTFOLIO ****************** */
+
+#portfolio {
+    background: #2d303a;
+    padding-top: 60px;
+    padding-bottom: 46px;
+    border-bottom: 6px solid #323746;
+}
+
+.portfolio__description {
+    font-weight: 300;
+    font-size: 1.8rem;
+    color: #666d89;
+}
+
+.portfolio__list {
+    display: flex;
+    list-style: none;
+    padding: 16px 0 18px 0;
+}
+
+.portfolio__item {
+    color: #666d89;
+    font-size: 1.2rem;
+    margin-right: 8px;
+    padding: 3px 7px;
+    border: 1px solid #666d89;
+    border-radius: 5px;
+}
+
+.portfolio__item:hover {
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+.active {
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+.layout-4-column {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.column-3 {
+    width: 220px;
+    height: 187px;
+    margin-bottom: 20px;
+}
+
+.column-3:nth-child(n+13){
+    display:none;
+  }
+
+.column-3 img {
+    width: 100%;
+}
+
+/* ******************** PORTFOLIO ****************** */
+
+/* ******************** ABOUT ********************* */
+
+#about {
+    padding-top: 60px;
+    padding-bottom: 57px;
+    border-bottom: 6px solid #ffffff;
+    background-color: #f2f2f2;
+    border-bottom: 6px solid #fff;
+}
+
+.about__description {
+    font-weight: 300;
+    line-height: 30px;
+    font-size: 1.8rem;
+    color: #666d89;
+    padding-bottom: 44px;
+}
+
+.layout-3-column {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.column-4 {
+    width: 33%;
+    color: #666d89;
+}
+.column-4:not(:first-child) {
+    padding-left: 9px;
+}
+
+.column-4:nth-child(2) {
+    padding-left: 4px;
+}
+
+.about-card__title {
+    padding: 10px 0 13px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.about-card__description {
+    line-height: 17px;
+}
+
+.about-card__social-network {
+    display: flex;
+    padding-top: 30px;
+}
+
+.about-card__social-network__link {
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
+    border: 1px solid #666d89;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-card__social-network__link img {
+   width: 15px;
+   height: 15px;
+}
+
+.about-card__social-network__link:hover {
+    background-color: #c8cee2;
+}
+
+/* ******************** ABOUT ********************* */
+
+/* ********************** QUOTE **************** */
+
+#quote {
+    background-color: #f06c64;
+    padding: 55px 0 25px;
+}
+
+.quote-title {
+    color: #f0d8d9;
+}
+
+.quote__description {
+    margin-bottom: 42px;
+    font-size: 1.8rem;
+    line-height: 30px;
+    color: #f0d8d9;
+}
+
+.layout-2-column {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.column-8 {
+    width: 66%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-btn {
+    width: 200px;
+    height: 30px;
+    margin: 20px auto 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #f0d8d9;
+    font-size: 1.6rem;
+    color: #d6564f;    
+}
+
+input {
+    padding: 14px;
+    margin-bottom: 13px;
+    background: #d6564f;
+    border: none;
+    border-radius: 5px;
+}
+
+input::placeholder, textarea::placeholder {
+    color: #e87675;
+}
+
+textarea {
+    width: 619px;
+    height: 202px;
+    background: #d6564f;
+    resize: none;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.column-4 {
+    width: 33%;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+}
+
+.contact {
+    margin-left: 10px;
+}
+
+.contact__title {
+    font-size: 1.8rem;
+    padding-bottom: 10px;
+    color: #f0d8d9;
+}
+
+.contact__decription {
+    font-size: 1.2rem;
+    color: #f0d8d9;
+    line-height: 21px;
+    padding-bottom: 18px;
+}
+
+.contact-info__icon {
+    margin-right: 12px;
+    width: 11px;
+    height: 11px;
+    fill: white;
+    z-index: 9;
+}
+
+.contact-info__description {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #f0d8d9;
+    line-height: 21px;
+}
+
+/* ********************** QUOTE **************** */
+
+footer {
+    height: 76px;
+    background-color: #2d303a;
+}
+
+.footer__title {
+    color: #666d89;
+    padding-top: 10px;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.about-card__social-network {
+    display: flex;
+    padding-top: 30px;
+}
+
+.about-card__social-network__link {
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
+    border: 1px solid #666d89;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-card__social-network__link:last-child {
+    margin-right: -8px;
+}
+
+.about-card__social-network__link img {
+   width: 15px;
+   height: 15px;
+}
+
+.about-card__social-network__link:hover {
+    background-color: #c8cee2;
+}
