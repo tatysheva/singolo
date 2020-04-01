@@ -91,12 +91,78 @@ a {
 
 /* ************* HERO ********************* */
 
-#hero {
+ #hero {
     background: #f06c64;
-    height: 100vh;
-    display: flex;
-    align-items: center;
     border-bottom: 6px solid #ea676b;
+} 
+
+.to-left {
+    animation-name: left;
+}
+
+.to-right {
+    animation-name: right;
+    animation-direction: reverse;
+}
+
+.from-left {
+    animation-name: left;
+    animation-direction: reverse;
+}
+
+.from-right {
+    animation-name: right;
+}
+
+@keyframes left {
+    from {
+        left: 0;
+    }
+    to {
+        left: -100%;
+    }
+}
+
+@keyframes right {
+    from {
+        left: 100%;
+    }
+    to {
+        left: 0;
+    }
+}
+
+/* .slider2 {
+    background-image: url(./assets/slider-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 16px solid #648bf0;
+} */
+
+
+.item-container {
+    position: relative;
+    width: 1020px;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.carousel-item {
+    display:none;
+    position: absolute;
+    width: 100%;
+    animation: 0.5s ease-in-out;
+}
+
+.carousel-active,
+.carousel-next
+{
+    display: block;
+}
+
+.carousel-next {
+    position: absolute;
+    width: 100%;
 }
 
 .hero-img {
@@ -109,17 +175,20 @@ a {
     position: absolute;
 }
 .arrow-left:hover, .arrow-right:hover {
+    cursor: pointer;
     transform: scale(1.5);
 }
 
+
+
 .arrow-left {
-    top: 193px;
-    left: 0;
+    top: 300px;
+    left: 30px;
 }
 
 .arrow-right {
-    top: 193px;
-    right: 0;
+    top: 300px;
+    right: 30px;
 }
 
 .hero-img__vertical {
